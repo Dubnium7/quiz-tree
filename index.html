@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>灵魂拷问</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card" id="card">
+  <h1 class="title">灵魂拷问</h1>
+
+  <div class="question-area" id="questionArea">
+    <p class="question" id="question"></p>
+    <div class="buttons" id="buttons">
+      <button class="btn btn-big" id="btnYes">有</button>
+      <button class="btn btn-small" id="btnNo">没有</button>
+    </div>
+    <div class="choice-area" id="choiceArea" style="display:none"></div>
+  </div>
+
+  <div class="end-area" id="endArea" style="display:none">
+    <img id="endImage" class="end-image" src="" alt="">
+    <p class="end-text" id="endText"></p>
+    <button class="btn btn-restart" id="btnRestart">再来一次</button>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

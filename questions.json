@@ -1,0 +1,45 @@
+{
+  "start": "q1",
+  "nodes": {
+    "q1": {
+      "text": "今天七夕你有约吗？",
+      "big": "no",
+      "yes": "end_single",
+      "no": "q2"
+    },
+    "q2": {
+      "text": "你今晚有空吗？",
+      "big": "yes",
+      "yes": "q3",
+      "no": "end_single"
+    },
+    "q3": {
+      "text": "你愿意和我去逛逛吗？",
+      "yesText": "愿意",
+      "noText": "不愿意",
+      "big": "yes",
+      "yes": "q4",
+      "no": "end_single"
+    },
+    "q4": {
+      "type": "choice",
+      "text": "那我们出发吧，你想去哪里？",
+      "options": [
+        { "text": "去莲花古城看花", "next": "end_final" },
+        { "text": "去日落之城看日落", "next": "end_final" },
+        { "text": "去微风岛屿吹吹海风", "next": "end_final" },
+        { "text": "去极地寒港看看雪山", "next": "end_final" }
+      ]
+    },
+    "end_single": {
+      "type": "end",
+      "image": "images/no.gif",
+      "text": "七夕快乐！"
+    },
+    "end_final": {
+      "type": "end",
+      "image": "images/final.png",
+      "text": "七夕快乐！"
+    }
+  }
+}
