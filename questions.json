@@ -38,7 +38,7 @@
     },
     "end_final": {
       "type": "end",
-      "image": "images/final.png",
+      "image": "images/end.png",
       "text": "七夕快乐！"
     }
   }
