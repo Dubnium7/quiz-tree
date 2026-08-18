@@ -171,6 +171,7 @@ body.fullscreen-end .end-image {
 }
 
 body.fullscreen-end .end-text,
-body.fullscreen-end .btn-restart {
+body.fullscreen-end .btn-restart,
+body.fullscreen-end .title {
   display: none;
 }

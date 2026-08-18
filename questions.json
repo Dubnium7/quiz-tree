@@ -9,6 +9,8 @@
     },
     "q2": {
       "text": "那你今晚有空吗～陪我一起好不好？",
+      "yesText": "好",
+      "noText": "不好",
       "big": "yes",
       "yes": "q3",
       "no": "end_single"
