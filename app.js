@@ -21,12 +21,15 @@ function showNode(id) {
   const node = data.nodes[id];
 
   if (node.type === 'end') {
+    document.body.classList.toggle('fullscreen-end', !!node.fullscreen);
     questionArea.style.display = 'none';
     endArea.style.display = 'block';
     endImage.src = node.image;
     endText.textContent = node.text || '';
     return;
   }
+
+  document.body.classList.remove('fullscreen-end');
 
   questionArea.style.display = 'block';
   endArea.style.display = 'none';

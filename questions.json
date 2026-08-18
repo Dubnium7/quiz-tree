@@ -38,6 +38,7 @@
     },
     "end_final": {
       "type": "end",
+      "fullscreen": true,
       "image": "images/end.png",
       "text": "七夕快乐！"
     }
