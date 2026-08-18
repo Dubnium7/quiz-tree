@@ -39,7 +39,7 @@
     "end_final": {
       "type": "end",
       "fullscreen": true,
-      "image": "images/end.png",
+      "image": "images/end.jpg",
       "text": "七夕快乐！"
     }
   }
