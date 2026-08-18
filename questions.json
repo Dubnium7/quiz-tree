@@ -25,8 +25,8 @@
       "type": "choice",
       "text": "那我们出发吧，你想去哪里？",
       "options": [
-        { "text": "去莲花古城看花", "next": "end_final" },
-        { "text": "去日落之城看日落", "next": "end_final" },
+        { "text": "去莲花古城看看花开", "next": "end_final" },
+        { "text": "去日落之城望望日落", "next": "end_final" },
         { "text": "去微风岛屿吹吹海风", "next": "end_final" },
         { "text": "去极地寒港看看雪山", "next": "end_final" }
       ]
