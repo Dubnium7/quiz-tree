@@ -12,7 +12,7 @@ const endText = document.getElementById('endText');
 const btnRestart = document.getElementById('btnRestart');
 
 async function init() {
-  const res = await fetch('questions.json');
+  const res = await fetch('questions.json', { cache: 'no-store' });
   data = await res.json();
   showNode(data.start);
 }
