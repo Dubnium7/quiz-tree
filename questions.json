@@ -2,19 +2,19 @@
   "start": "q1",
   "nodes": {
     "q1": {
-      "text": "今天七夕你有约吗？",
+      "text": "今天七夕耶～你有约了吗？(◕‿◕)",
       "big": "no",
       "yes": "end_single",
       "no": "q2"
     },
     "q2": {
-      "text": "你今晚有空吗？",
+      "text": "那你今晚有空吗～陪我一起好不好？",
       "big": "yes",
       "yes": "q3",
       "no": "end_single"
     },
     "q3": {
-      "text": "你愿意和我去逛逛吗？",
+      "text": "那你愿意和我去逛逛嘛～？",
       "yesText": "愿意",
       "noText": "不愿意",
       "big": "yes",
@@ -23,7 +23,7 @@
     },
     "q4": {
       "type": "choice",
-      "text": "那我们出发吧，你想去哪里？",
+      "text": "那我们出发啦～你想去哪里呢？(◕‿◕)",
       "options": [
         { "text": "去莲花古城看看花开", "next": "end_final" },
         { "text": "去日落之城望望日落", "next": "end_final" },
