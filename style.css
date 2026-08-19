@@ -83,6 +83,11 @@ body {
   transform: scale(0.94);
 }
 
+.btn:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
 .choice-area {
   display: flex;
   flex-direction: column;
@@ -106,6 +111,7 @@ body {
 }
 
 .btn-small {
+  position: relative;
   width: 44px;
   height: 24px;
   background: linear-gradient(135deg, #e8c6d5, #d4a5bd);
