@@ -32,7 +32,7 @@ function typeText(el, text, done) {
       clearInterval(timer);
       if (done) done();
     }
-  }, 110);
+  }, 50);
 }
 
 function showNode(id) {
